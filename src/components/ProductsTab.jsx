@@ -1,25 +1,8 @@
+import { useTranslation } from '../i18n/useTranslation.jsx'
+
 export default function ProductsTab() {
-  const products = [
-    {
-      name: 'Basic Package',
-      description: 'Perfect for small businesses getting started',
-      price: '$99',
-      features: ['Standard Support', 'Basic Analytics', '5 Projects'],
-    },
-    {
-      name: 'Professional Package',
-      description: 'Ideal for growing companies',
-      price: '$199',
-      features: ['Priority Support', 'Advanced Analytics', 'Unlimited Projects', 'Custom Integrations'],
-      featured: true,
-    },
-    {
-      name: 'Enterprise Package',
-      description: 'For large organizations with complex needs',
-      price: '$499',
-      features: ['24/7 Dedicated Support', 'Full Analytics Suite', 'Unlimited Everything', 'Custom Development'],
-    },
-  ]
+  const { t } = useTranslation()
+  const products = t('products.items') || []
 
   return (
     <div className="pt-16">
@@ -27,10 +10,10 @@ export default function ProductsTab() {
       <section className="bg-bee-dark text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Our <span className="text-bee-yellow">Products</span>
+            {t('products.heroTitle')} <span className="text-bee-yellow">{t('products.heroHighlight')}</span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Choose the perfect solution for your business needs
+            {t('products.heroSubtitle')}
           </p>
         </div>
       </section>
@@ -48,7 +31,7 @@ export default function ProductsTab() {
               >
                 {product.featured && (
                   <div className="bg-bee-amber text-center py-2 text-bee-dark font-semibold">
-                    Most Popular
+                    {t('products.mostPopular')}
                   </div>
                 )}
                 <div className="p-8">
@@ -56,7 +39,7 @@ export default function ProductsTab() {
                   <p className="text-gray-600 mb-4">{product.description}</p>
                   <div className="text-4xl font-bold text-bee-amber mb-6">
                     {product.price}
-                    <span className="text-lg text-gray-500 font-normal">/month</span>
+                    <span className="text-lg text-gray-500 font-normal">{t('products.perMonth')}</span>
                   </div>
                   <ul className="space-y-3 mb-8">
                     {product.features.map((feature, fIndex) => (
@@ -73,7 +56,7 @@ export default function ProductsTab() {
                         : 'bg-bee-dark hover:bg-gray-800 text-white'
                     }`}
                   >
-                    Get Started
+                    {t('products.cta')}
                   </button>
                 </div>
               </div>

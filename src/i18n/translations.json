@@ -1,0 +1,335 @@
+{
+  "en": {
+    "nav": {
+      "main": "Main",
+      "about": "About Us",
+      "products": "Products",
+      "brand": "Lowfin Bee"
+    },
+    "hero": {
+      "title": "Welcome to",
+      "highlight": "Lowfin Bee",
+      "subtitle": "We deliver exceptional solutions that help your business thrive in the digital age."
+    },
+    "features": {
+      "title": "Our Features",
+      "items": [
+        {
+          "title": "Professional Service",
+          "description": "Expert solutions tailored to your needs",
+          "icon": "⚡"
+        },
+        {
+          "title": "Quality Guaranteed",
+          "description": "Premium results with every project",
+          "icon": "✨"
+        },
+        {
+          "title": "Fast Delivery",
+          "description": "Quick turnaround times without compromising quality",
+          "icon": "🚀"
+        }
+      ]
+    },
+    "about": {
+      "heroTitle": "About",
+      "heroHighlight": "Lowfin Bee",
+      "heroSubtitle": "Learn more about our mission and values",
+      "missionTitle": "Our Mission",
+      "missionParagraph1": "At Lowfin Bee, we are dedicated to providing innovative solutions that empower businesses to succeed in the digital landscape. Our commitment to quality, integrity, and customer satisfaction drives everything we do.",
+      "missionParagraph2": "We believe in building long-term relationships with our clients through exceptional service and measurable results.",
+      "valuesTitle": "Our Values",
+      "values": [
+        {
+          "title": "Quality",
+          "desc": "Excellence in everything we deliver"
+        },
+        {
+          "title": "Innovation",
+          "desc": "Creative solutions for complex problems"
+        },
+        {
+          "title": "Integrity",
+          "desc": "Honest and transparent partnerships"
+        },
+        {
+          "title": "Customer Focus",
+          "desc": "Your success is our priority"
+        }
+      ]
+    },
+    "products": {
+      "heroTitle": "Our",
+      "heroHighlight": "Products",
+      "heroSubtitle": "Choose the perfect solution for your business needs",
+      "mostPopular": "Most Popular",
+      "perMonth": "/month",
+      "cta": "Get Started",
+      "items": [
+        {
+          "name": "Basic Package",
+          "description": "Perfect for small businesses getting started",
+          "price": "$99",
+          "features": ["Standard Support", "Basic Analytics", "5 Projects"]
+        },
+        {
+          "name": "Professional Package",
+          "description": "Ideal for growing companies",
+          "price": "$199",
+          "featured": true,
+          "features": ["Priority Support", "Advanced Analytics", "Unlimited Projects", "Custom Integrations"]
+        },
+        {
+          "name": "Enterprise Package",
+          "description": "For large organizations with complex needs",
+          "price": "$499",
+          "features": ["24/7 Dedicated Support", "Full Analytics Suite", "Unlimited Everything", "Custom Development"]
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "Professional solutions for your business success.",
+      "quickLinks": "Quick Links",
+      "links": {
+        "home": "Home",
+        "about": "About Us",
+        "products": "Products",
+        "contact": "Contact"
+      },
+      "contactTitle": "Contact",
+      "contact": {
+        "email": "Email: info@lowfinbee.com",
+        "phone": "Phone: (555) 123-4567",
+        "address": "Address: 123 Business St, Suite 100"
+      },
+      "rights": "All rights reserved."
+    },
+    "language": {
+      "en": "English",
+      "ja": "日本語",
+      "zh-TW": "繁體中文"
+    }
+  },
+  "ja": {
+    "nav": {
+      "main": "メイン",
+      "about": "私たちについて",
+      "products": "製品",
+      "brand": "Lowfin Bee"
+    },
+    "hero": {
+      "title": "ようこそ",
+      "highlight": "Lowfin Bee",
+      "subtitle": "デジタル時代にあなたのビジネスが成長するための卓越したソリューションを提供します。"
+    },
+    "features": {
+      "title": "主な特長",
+      "items": [
+        {
+          "title": "プロフェッショナルなサービス",
+          "description": "お客様のニーズに合わせた専門的なソリューション",
+          "icon": "⚡"
+        },
+        {
+          "title": "品質保証",
+          "description": "すべてのプロジェクトで高品質な成果を提供",
+          "icon": "✨"
+        },
+        {
+          "title": "迅速な提供",
+          "description": "品質を損なわずに迅速な納期を実現",
+          "icon": "🚀"
+        }
+      ]
+    },
+    "about": {
+      "heroTitle": "について",
+      "heroHighlight": "Lowfin Bee",
+      "heroSubtitle": "私たちの使命と価値観をご紹介します",
+      "missionTitle": "私たちの使命",
+      "missionParagraph1": "Lowfin Beeは、ビジネスがデジタル環境で成功するための革新的なソリューションを提供することに専念しています。品質、誠実さ、顧客満足への取り組みが私たちの原動力です。",
+      "missionParagraph2": "優れたサービスと測定可能な成果を通じて、長期的な信頼関係を築くことを大切にしています。",
+      "valuesTitle": "私たちの価値観",
+      "values": [
+        {
+          "title": "品質",
+          "desc": "提供するすべてに卓越性を追求"
+        },
+        {
+          "title": "革新",
+          "desc": "複雑な課題に創造的な解決策を提供"
+        },
+        {
+          "title": "誠実",
+          "desc": "正直で透明性のあるパートナーシップ"
+        },
+        {
+          "title": "顧客重視",
+          "desc": "お客様の成功が私たちの最優先事項"
+        }
+      ]
+    },
+    "products": {
+      "heroTitle": "私たちの",
+      "heroHighlight": "製品",
+      "heroSubtitle": "あなたのビジネスに最適なソリューションを選択してください",
+      "mostPopular": "人気No.1",
+      "perMonth": "/月",
+      "cta": "今すぐ始める",
+      "items": [
+        {
+          "name": "ベーシックプラン",
+          "description": "小規模ビジネス向けのスタータープラン",
+          "price": "$99",
+          "features": ["標準サポート", "基本分析", "5プロジェクト"]
+        },
+        {
+          "name": "プロフェッショナルプラン",
+          "description": "成長中の企業に最適",
+          "price": "$199",
+          "featured": true,
+          "features": ["優先サポート", "高度な分析", "無制限プロジェクト", "カスタム統合"]
+        },
+        {
+          "name": "エンタープライズプラン",
+          "description": "大規模組織向けの包括的なプラン",
+          "price": "$499",
+          "features": ["24時間365日サポート", "高度な分析スイート", "すべて無制限", "カスタム開発"]
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "ビジネス成功のためのプロフェッショナルなソリューション。",
+      "quickLinks": "クイックリンク",
+      "links": {
+        "home": "ホーム",
+        "about": "私たちについて",
+        "products": "製品",
+        "contact": "お問い合わせ"
+      },
+      "contactTitle": "お問い合わせ",
+      "contact": {
+        "email": "メール: info@lowfinbee.com",
+        "phone": "電話: (555) 123-4567",
+        "address": "住所: 123 Business St, Suite 100"
+      },
+      "rights": "All rights reserved."
+    },
+    "language": {
+      "en": "English",
+      "ja": "日本語",
+      "zh-TW": "繁體中文"
+    }
+  },
+  "zh-TW": {
+    "nav": {
+      "main": "主頁",
+      "about": "關於我們",
+      "products": "產品",
+      "brand": "Lowfin Bee"
+    },
+    "hero": {
+      "title": "歡迎來到",
+      "highlight": "Lowfin Bee",
+      "subtitle": "我們提供卓越的解決方案，助您的企業在數位時代蓬勃發展。"
+    },
+    "features": {
+      "title": "我們的特色",
+      "items": [
+        {
+          "title": "專業服務",
+          "description": "量身打造符合您需求的專業解決方案",
+          "icon": "⚡"
+        },
+        {
+          "title": "品質保證",
+          "description": "每個專案都提供高品質成果",
+          "icon": "✨"
+        },
+        {
+          "title": "快速交付",
+          "description": "在不犧牲品質的前提下快速交付",
+          "icon": "🚀"
+        }
+      ]
+    },
+    "about": {
+      "heroTitle": "關於",
+      "heroHighlight": "Lowfin Bee",
+      "heroSubtitle": "了解我們的使命與價值",
+      "missionTitle": "我們的使命",
+      "missionParagraph1": "Lowfin Bee 致力於提供創新解決方案，協助企業在數位環境中取得成功。我們對品質、誠信與客戶滿意度的承諾驅動著我們的一切。",
+      "missionParagraph2": "我們相信透過卓越服務與可量化成果，建立長期的合作關係。",
+      "valuesTitle": "我們的價值",
+      "values": [
+        {
+          "title": "品質",
+          "desc": "在每一項交付成果中追求卓越"
+        },
+        {
+          "title": "創新",
+          "desc": "為複雜問題提供創意解決方案"
+        },
+        {
+          "title": "誠信",
+          "desc": "誠實且透明的合作夥伴關係"
+        },
+        {
+          "title": "以客為尊",
+          "desc": "您的成功是我們的首要任務"
+        }
+      ]
+    },
+    "products": {
+      "heroTitle": "我們的",
+      "heroHighlight": "產品",
+      "heroSubtitle": "選擇最適合您企業需求的解決方案",
+      "mostPopular": "最受歡迎",
+      "perMonth": "/月",
+      "cta": "立即開始",
+      "items": [
+        {
+          "name": "基本方案",
+          "description": "適合剛起步的小型企業",
+          "price": "$99",
+          "features": ["標準支援", "基本分析", "5 個專案"]
+        },
+        {
+          "name": "專業方案",
+          "description": "適合成長中的企業",
+          "price": "$199",
+          "featured": true,
+          "features": ["優先支援", "進階分析", "不限專案數", "客製化整合"]
+        },
+        {
+          "name": "企業方案",
+          "description": "適合大型組織的完整方案",
+          "price": "$499",
+          "features": ["24/7 專屬支援", "完整分析套件", "全部不限", "客製化開發"]
+        }
+      ]
+    },
+    "footer": {
+      "tagline": "為您的商業成功提供專業解決方案。",
+      "quickLinks": "快速連結",
+      "links": {
+        "home": "首頁",
+        "about": "關於我們",
+        "products": "產品",
+        "contact": "聯絡我們"
+      },
+      "contactTitle": "聯絡我們",
+      "contact": {
+        "email": "Email: info@lowfinbee.com",
+        "phone": "電話: (555) 123-4567",
+        "address": "地址: 123 Business St, Suite 100"
+      },
+      "rights": "All rights reserved."
+    },
+    "language": {
+      "en": "English",
+      "ja": "日本語",
+      "zh-TW": "繁體中文"
+    }
+  }
+}
